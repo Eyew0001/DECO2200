@@ -24,6 +24,10 @@
 .col-md-12 {
     display: inline-block;
 }
+.col-md-11 {
+    padding-top:50%;
+    display: inline-block;
+}
 .master-heading {
     margin-left:38%;
 
@@ -31,10 +35,14 @@
 .section-heading {
     margin-left:0%;
     display: inline-block;
-    margin-top:2%;
+    margin-top:5%;
 }
 
 .back {
     width: 100%;
     margin-bottom:5%;
+}
+
+#background-research {
+    margin-top:-5%;
 }
