@@ -1,0 +1,40 @@
+.col-md-6 {
+
+    width: 100%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    float:left;
+    margin-bottom:0%;
+
+}
+
+.col-md-2 {
+    float:right;
+}
+.container {
+    padding: 0%;
+    margin-left:5%;
+}
+.row {
+    display: inline-block;
+}
+.page {
+    padding-left:0%;
+}
+.col-md-12 {
+    display: inline-block;
+}
+.master-heading {
+    margin-left:38%;
+
+}
+.section-heading {
+    margin-left:0%;
+    display: inline-block;
+    margin-top:2%;
+}
+
+.back {
+    width: 100%;
+    margin-bottom:5%;
+}

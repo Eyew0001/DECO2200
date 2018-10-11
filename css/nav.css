@@ -1,0 +1,104 @@
+#cont {
+    transition: 0.5s;
+}
+/*Header Bar*/
+.header-bar img {
+	cursor: pointer;
+}
+.header-bar img:hover {
+    src: "img/common/if_105-see-no-evil-monkey_3099447.svg";
+}
+.header-bar {
+	position: fixed;
+	width:100%;
+	top:0%;
+	left:0%;
+    background-color: #FFFFFF;
+    font-size:1.5em;
+    z-index:2;
+}
+#header-title {
+	margin-left: 0%;
+    display: inline-block;
+    font-family: 'Unica One', cursive;
+}
+
+/*Side Navbar Rules*/
+.navbar{
+	background-color:#CD5360;
+	align-items: baseline;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+	padding: 0rem 0rem!important;
+	padding-top:5%!important;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#navbar {
+	width:90%; /*width of side nav padding */
+}
+
+.navbar ul {
+	list-style: none;
+	padding: unset; /* position links to top of nav bar*/
+	visibility: hidden; /* hide links when not opened*/
+	transition-delay: 0.35s;
+}
+
+.navbar a {
+    padding: 12px 12px 12px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s; 	
+    font-family: 'Unica One', cursive;
+    letter-spacing: 2px;
+}
+.navbar a:hover {
+	color: #000000;
+}
+
+.closebtn { /*cross button*/
+	float:right;
+}
+
+.navbar-toggle {
+	color: #000;
+}
+
+
+#overlay { /* darken background when open side nav*/
+    width:100%;
+    height:100%;
+    background-color: #000;   
+    opacity:0.5;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+	visibility: hidden;
+	z-index: 1;
+}
+
+/*Floating Nav*/
+.floating-nav{
+	position: fixed;
+	margin-top: 100px;
+    border-left: 1px solid #727272;
+    margin-left:15%;
+}
+
+	a.float-nav-link{
+		font-family: 'Sintony', sans-serif;
+		color: #595959;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left;
+	}
