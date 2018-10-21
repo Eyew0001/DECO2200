@@ -54,11 +54,23 @@ h1, h2, h3, h4, h5, h6 {
 		color: #B56357;
 		letter-spacing: -0.5px;
 	}
+	h4{
+		text-transform: uppercase;
+		color: rgb(129, 52, 78);
+		letter-spacing: -0.5px;
+	}
 
+h5{
+		text-transform: uppercase;
+		color: rgb(129, 52, 78);
+		letter-spacing: -0.5px;
+	}
 p, li, span, a {
 	font-family: 'Crimson Text', serif;
 	text-align: justify;
 	font-weight: 300;
+	font-size: 18px;
+	color: #494949;
 }
 
 	p{
@@ -69,7 +81,7 @@ p, li, span, a {
 
 span.img-caption{
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	padding: 10px 0px 10px 0px;
 }
@@ -116,9 +128,10 @@ span.img-caption{
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
-	border-top: 1px solid #727272;
+	background-color: rgb(196, 129, 118);
 }
-
+.footer p {
+	color:rgba(255, 255, 255, 0.885);
+}
 
 
