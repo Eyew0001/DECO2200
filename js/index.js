@@ -43,5 +43,3 @@ function unhover(element) {
     element.setAttribute('src', 'img/common/menu.png');
 }
 
-
-
