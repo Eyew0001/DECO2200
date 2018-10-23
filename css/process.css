@@ -47,9 +47,6 @@
     margin-top:10%;
 }
 
-.col-md-2 {
-    float:right;
-}
 .container {
     padding: 0%;
     margin-left:5%;
@@ -85,6 +82,7 @@
 
 .col-md-2
 {
+    float:right;
     height:2%;
 }
 
