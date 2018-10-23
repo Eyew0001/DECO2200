@@ -15,25 +15,9 @@
 .prototype {
     margin-top:5%;
 }
-.brainstorm2 {
-    float:right;
-}
-.ideation-img{
-    margin-bottom:10%;
-}
-.col-6 {
-    float:right;
-    padding-left:20%;
-}
-.col-5 {
-    float:right;
-}
-.col-7 {
-    float:right;
-}
-.left {
-    float:left;
-}
+
+
+
 .heading{
     margin-top:10%;
 }
@@ -58,23 +42,10 @@
 .col-md-12 {
     display: inline-block;
 }
-.col-md-11 {
-    padding-top:50%;
-    display: inline-block;
-}
+
 .master-heading {
     margin-left:38%;
 
-}
-.section-heading {
-    margin-left:0%;
-    display: inline-block;
-    margin-top:5%;
-}
-
-.back {
-    width: 100%;
-    margin-bottom:5%;
 }
 
 
@@ -99,52 +70,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.end {
-    /* The image used */
-    background-image: url('../img/process-journal/zhen-hu-340739-unsplash.jpg');
-    min-height: 400px; 
-    background-size: 80%;
-    background-position: 15%; 
 
-}
-.first {
-        /* The image used */
-        background-image: url('../img/process-journal/iteration1.png');
-        min-height: 400px; 
-        background-size: 80%;
-        background-position: 15%; 
-
-}
-.second {
-    /* The image used */
-    background-image: url('../img/process-journal/iteration2.png');
-    min-height: 400px; 
-    background-size: 85%;
-    background-position: 5%; 
-
-}
-.third {
-    /* The image used */
-    background-image: url('../img/process-journal/iteration3.png');
-    min-height: 400px; 
-    background-size: 80%;
-    background-position: 15%; 
-
-}
 .intro {
     /* The image used */
-    background-image: url('../img/process-journal/ambulance.jpg');
+    background-image: url('../img/prototype/hero.jpg');
     min-height: 400px; 
     background-size: 80%;
     background-position: 15%; 
 
 }
-#paraheading {
-    position: absolute;
-    z-index: 0.5;
-    top:350px;
-    background-color:#E9E7DA;
-  }
+
 .testpara {
     margin-top:-10%;
 }
