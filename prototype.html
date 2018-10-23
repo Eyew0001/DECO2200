@@ -19,13 +19,13 @@
   <!-- Custom CSS File -->
   <link rel="stylesheet" href="./css/custom.css">
   <link rel="stylesheet" href="./css/nav.css">
-  <link rel="stylesheet" href="./css/process.css">
+  <link rel="stylesheet" href="./css/prototype.css">
   <!---JS Files-->
   <script src="js/index.js"></script>
   <!-- <script src="js/sidenav.js"></script> -->
-
+  <link rel="shortcut icon" type="image/png" href="./img/common/logo.png">
   <!-- Page Title -->
-  <title>Hello, world!</title>
+  <title>Prototype</title>
 
   <!-- This is our Meta Description -->
   <meta name="description" content="What you write here will often show up in search results under the page title">
@@ -57,7 +57,7 @@
         <li>
           <a class="nav-item nav-link" href="contact.html">CONTACT</a>
         </li>
-        
+
 
       </ul>
     </div>
@@ -72,7 +72,7 @@
     <!--header bar start-->
     <div class="header-bar navbar-brand">
       <img src="img/common/menu.png" onmouseover="hover(this);" onmouseout="unhover(this);" onclick="openHa();" alt="menu-icon">
-      <div id="header-title">NICK CITIZEN</div></a>
+      <div id="header-title">Evelyn Yew</div></a>
     </div>
     <!--header bar end-->
 
@@ -83,28 +83,22 @@
       <div class="floating-nav" id="floating-navigation">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link float-nav-link active" href="#background-research">1. Background Research</a>
+            <a class="nav-link float-nav-link active" href="#introduction">1. Introduction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#identifying">2. Identifying Problem Areas</a>
+            <a class="nav-link float-nav-link active" href="#research">2. Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#ideation">3. Ideation</a>
+            <a class="nav-link float-nav-link" href="#how">3. How Does it Work?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#final-solution">4. Final Solution</a>
+            <a class="nav-link float-nav-link" href="#des1">4. Design 1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#interfaces">5. Interfaces</a>
+            <a class="nav-link float-nav-link" href="#des2">5. Design 2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#drawbacks">6. Ideation Drawbacks and Reflections</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#testing">7. User Testing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link float-nav-link" href="#next">8. Next Steps</a>
+            <a class="nav-link float-nav-link" href="#final">6. Final Design</a>
           </li>
         </ul>
       </div>
@@ -112,587 +106,430 @@
 
     <div class="row master-heading">
       <div class="col-md-12">
-        <h1>PROCESS JOURNAL</h1>
+        <h1>PROTOTYPE</h1>
       </div>
     </div>
 
-    <div class="row page">
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>Introduction</h3>
-        </div>
-        <div class="col-md-12">
-          <p>As the population continues to grow, the demand for ambulance services is predicted to
-            increase in a similar fashion. To keep up with this ever-growing demand, the current ambulance
-            service system must be revised and further assessed. As we slowly start to welcome an autonomous
-            technology driven future, there is potential to improve ambulance services even further by
-            streamlining the procedure and improve response and further benefiting society. This project
-            focuses on exploring how autonomous technologies can be integrated in emergency ambulance services
-            to improve the overall process and experience. </p>
-        </div>
+    <div class="parallax intro"></div>
+    <span class="img-caption">Photo by delfi de la Rua on Unsplash</span>
+
+    <div class="row page" id="introduction">
+
+      <div class="col-md-12 heading">
+        <h3>Introduction</h3>
+      </div>
+      <div class="col-md-12">
+        <p>The demand for NSW ambulance services has seen a minimum 2% increase each year for the
+          past five years and is predicted to grow (Audit Office, 2017). ‘Smart Triaging’ is an
+          application that has been developed for the smartwatch and smartphone to combat this growing issue.
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-md-12 heading">
+        <h3>Research</h3>
+      </div>
+      <div class="col-md-12 text">
+        <p>Two major themes were found across our research: </p>
+        <ul>
+          <li>The importance of communication between the calling party, paramedics and dispatchers.</li>
+          <li>Non-urgent calls are placing a strain on already limited resources.</li>
+        </ul>
+        <p>
+          <i>‘Smart Triaging’</i> targets less urgent emergency situations, to allow better allocation of resources
+          with a focus from the user’s end.
+        </p>
+        <p>This is achieved through the concept of ‘self triaging’, an idea that involves the user being able
+          to gain information on their own by using autonomous technology. Smartwatches are wearable devices
+          that have become quickly integrated into society with heavy development in health associated projects.
+          Due to these reasons, the smartwatch was chosen as the main device as user testing proved users
+          preferred the convenience of a device being able to autonomously triage for them. </p>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="row" id="how">
+      <div class="col-md-12 heading ">
+        <h3>How Does it Work?</h3>
+      </div>
+      <div class="col-md-12">
+        <p>An autonomous system is the key to this concept; combining a triaging smartwatch application, smart
+          ambulance and an autonomous equipment allocation system. When the watch makes the autonomous decision
+          that the user requires immediate medical attention, a call will be prompted. If the user responds, an
+          alarm will be sent to the ambulance service with the system autonomously analysing the received data
+          and equipping the ambulance with appropriate specialised equipment if needed. The user’s data such as
+          the information on their injury and their medical history will be available for the EMTs to access on
+          route within the ambulance. </p>
+
+        <p>The injured user will be able to track the ambulance live with an estimated time of arrival as
+          well as its distance away. First aid tips tailored to the injury will be provided to advise users
+          of what to do whilst waiting, allowing the user to regain some control in an otherwise helpless
+          situation. </p>
+      </div>
+    </div>
+
+
+
+
+    <div class="row" id="des1">
+      <div class="col-md-12 heading">
+        <h3>Design 1</h3>
+        <h4>Introduction</h4>
+      </div>
+      <div class="col-md-12">
+        <p>As the first high fidelity prototype, this version was the first to be created on InVision,
+          built using feedback from numerous paper prototype iterations.
+          A total of 7 users were tested, 3 tutors (Ashlynn, Jackson & Sophie), 2 regular users
+          (Pansy & Eugene) and 2 medical professionals (Stephanie & Lesha). All users were tested
+          individually to ensure that their opinions would not be influenced by any peers.
+          The three DECO2200 tutors were tested during the time allocated for feedback during the
+          studio on university grounds. Regular users were categorised as users who did not study
+          design computing or relevant fields; thus having less context for what the application was
+          to achieve. Eugene (IT solution architect) tested the product at his home through his personal
+          laptop whilst Pansy (university student studying mathematics) tested the application on the
+          university campus at the Carslaw building. The two medical professionals Stephanie (medical scribe)
+          and Lesha (ED nurse) were unable to test in person due to their busy schedules and instead
+          accessed the prototypes through the links generated on invision. These two participants were
+          tested individually with each recorded on call as they explored the prototype using the think-aloud
+          method to express their needs/dislikes.
+        </p>
+      </div>
+      <div class="col-md-12">
+        <h4>App Structure Screen Flow Chart</h4>
       </div>
 
-
-
-
-
-      <div class="row section-heading" id="background-research">
-        <div class="col-md-12">
-          <h3>1. Background Research</h3>
-        </div>
-      </div>
-
-      <div class="row back">
-        <div class="col-md-6">
-          <img src="./img/process-journal/background_research.jpg" class="img-fluid" alt="Responsive image">
-          <span class="img-caption">Figure 1.1 - Sally using an academic database</span>
-        </div>
-        <div class="col-md-6 text">
-          <p>To better understand the context of our study and identify all problem areas, a combination of literary,
-            interview and survey research regarding the current state of ambulance services was conducted. Mapping out
-            all
-            stakeholders involved with ambulance services brought us three major user groups: medical staff involved
-            with
-            ambulance services, caretakers, and regular users who have experienced calling or using ambulance services
-            before.
-            To cover as much ground as possible, each member individually chose one user group for the first stage of
-            research,
-            where I covered caretakers. </p>
-        </div>
-      </div>
-
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>Research: First Stage</h3>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>6 semi-structured interviews were conducted with 5 aged care workers and 1 primary school teacher to gain
-            qualitative data on
-            the perspective of those who are legally responsible for the wellbeing of another person. Questions
-            regarding their experience
-            and personal opinions on any services they've received and what factors contribute to a successful service
-            were asked, providing
-            further insight into any latent or tacit needs. Analysis of the generally positive feedback collected
-            resulted in the emergence of
-            a central theme: the importance of communication and resources.
-            Compiling this data with the rest of the team led to similar findings throughout all three user groups. </p>
-
-
-        </div>
-      </div>
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>Research: Second Stage</h3>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>To support the primary data collected, further secondary research was conducted regarding these two
-            emergent themes.
-            Past studies presented statistical data and key results from not only caretakers but a variety of
-            perspectives,
-            providing deeper insight into the two main areas of communication and resources. Within these areas,
-            specific issues arose:
-            <li>majority of emergency calls being deemed non-urgent or low acuity, </li>
-            <li>and the vital role communication plays in improving preparation, teamwork and service. </li>
-          </p>
-
-
-        </div>
-      </div>
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>Research: Third Stage</h3>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>A survey was conducted to gain a deeper understanding into the work experience of paramedics. The
-            quantitative data
-            collected would help provide additional support to the secondary research as well as provide statistical
-            data specific to
-            the key problem areas. Results showed that 48% of the 38 respondents
-            found their services often not actually being medically required, with 49% feeling frustrated because of
-            this.</p>
-
-
-        </div>
-      </div>
-
-      <div class="row section-heading" id="identifying">
-        <div class="col-md-12">
-          <h3>Identifying Problem Areas</h3>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>By compiling all of the research data with the rest of the team, it was clear that the key issues found
-            where common with everyone.
-            The first being that, majority of calls are classified as non-urgent, which ultimately puts unnecessary
-            strain on emergency
-            service resources. Additionally communication was found to be a vital contributor to a positive experience.
-            Whether it be communication
-            between dispatchers and patients,
-            or between paramedics and dispatchers, lack of communication often resulted in confusion and delays in
-            service.</p>
-
-
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <p>Using these key themes we conducted a brainstorming session regarding characteristics that we believe
-            important to consider in our solution,
-            and how it would tie in with user needs. Our combined research contains a wide range of perspectives so
-            mapping out our
-            thoughts on the same page helped provide a visualisation of how various themes and characteristics link to
-            one another.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="./img/process-journal/user_needs.png" class="img-fluid" alt="Responsive image">
-          <span class="img-caption">User Needs Brainstorming Session</span>
-        </div>
-
-      </div>
-
-      <div class="row section-heading" id="ideation">
-        <div class="col-md-12">
-          <h3>Ideation</h3>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>After figuring out the user needs, the ideation stage begun for potential solutions. While churning out as
-            many ideas as possible,
-            each member added their solutions to the page. No matter how improbable they may seem, these ideas would
-            serve as a
-            warm up exercise to allow us to get in the right mood and context, and uncover as many possible solutions
-            as possible. </p>
-        </div>
-        <div class="col-md-12">
-          <p>Each member chose their two best solutions and wrote a brief summary describing their chosen concepts.
-            Passing the page
-            along, members then added features they thought would improve the idea, continually building and expanding
-            upon the base
-            of the original design. Pros and cons were also added and discussed, to give us an idea of what the
-            benefits of choosing
-            this solution would be, as well as the possible limitations we would face. After thorough discussion of
-            these pros and cons,
-            our 3 optimal solutions were chosen. The chosen ideas were: an ambulance triaging mobile application, a
-            smart ambulance,
-            and an autonomous equipment allocation system.
-          </p>
-        </div>
-        <div class="col-md-12">
-          <p>However we felt that these ideas were still lacking as we despite basing our ideas around our initial mind
-            map of user
-            needs and issues, we found the incorporation of our central theme, autonomous technologies, was very
-            minimal for all of
-            the designs. Thus, another round of ideation brainstorming took place, again each choosing their best idea
-            to create a
-            new set of 3. These new features were: medical chips, AI Recognition street cameras and autonomous traffic
-            lights. After
-            thoroughly discussing the potential of these new ideas, we saw potential to integrate these features with
-            our original 3 ideas.
-          </p>
-        </div>
-      </div>
-
-      <div class="row section-heading" id="final-solution">
-        <div class="col-md-12">
-          <h3>Final Solution</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>By incorporating various features, we decided upon creating an autonomous ecosystem. </p>
-        </div>
-        <div class="col-md-12">
-          <p>Via interacting with an interface, patients' injuries are triaged, prompting them to call
-            ambulances when appropriate. The patient’s location, injury data and medical history would
-            be analysed by the system to make autonomous decisions. Based on these decisions, any special
-            equipment needed would be autonomously allocated to an autonomous ambulance via a rail system.
-            This provides paramedics with vital information on the patient, and ensures the paramedics are
-            thoroughly prepared before arrival.
-          </p>
-        </div>
-        <div class="col-md-12">
-          <p>On route, the system will analyse and generate the most efficient route to reach the patient,
-            changing traffic lights and improving traffic flow in the ambulance’s favour. The system additionally
-            identifies the nearest hospital that would be able to take in the patient, creating a route from the
-            scene to the hospital. </p>
-        </div>
-        <div class="col-md-12">
-          <p>This system would incorporate various features from our brainstorm sessions including the
-            autonomous traffic lights and autonomous equipment allocation.</p>
-        </div>
-      </div>
-
-      <div class="row section-heading" id="interfaces">
-        <div class="col-md-12">
-          <h3>Interfaces</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>It was decided that to benefit staff and help improve quality of service, we needed to target regular
-            callers
-            as they are the main reason that these services are needed in the first place, and are the main users that
-            dictate
-            the flow of the system. Three interfaces were designed to interact with the system:
-
-            <li> Futuristic street lamps that used sensors and cameras to autonomously detect and triage certain
-              injuries in public areas,
-              with this solution taking much influence from AI recognition. </li>
-
-            <li>A smartwatch application that would use sensors to detect bodily injuries on the wearer, with this
-              solution taking much influence from the idea of medical chips. </li>
-            <li>Mobile triaging application that would use AI recognition to scan and detect any injuries or illnesses.</li>
-          </p>
-        </div>
-      </div>
-
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>Complications</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>Upon further development and discussion, we discovered that our streetlamp design would not be able to
-            cater for indoor
-            cases. Though initially designed for outdoor use, a large number of calls do take place indoor, such as
-            9.7% of calls being
-            made up of elderly fall patients (Cox, et al., 2018). For the reason that this idea could not cover indoor
-            areas, it was
-            decided that we could no longer continue with this design.</p>
-        </div>
-      </div>
-
-      <div class="row section-heading" id="drawbacks">
-        <div class="col-md-12">
-          <h3>Ideation Drawbacks and Reflections</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>These rounds of ideation and brainstorming consumed more time than we had hoped, becoming definite
-            setbacks for the team,
-            towards both the schedule and our motivation. A considerable amount of time was spent coming up with a
-            sound
-            solution that considered not only the problem areas that we discovered, but also implemented autonomous
-            technology.
-            While the current state of autonomous technology is seeing slow but steady advancements, the idea has yet
-            to become
-            properly implemented in society. </p>
-        </div>
-        <div class="col-md-12">
-          <p>One thing we had to learn was to accept the futuristic nature of the context and to allow ourselves to
-            think broader.
-            Despite encouraging as many solutions as possible no matter how farfetched they may seem, when selecting
-            probable features
-            it was difficult to determine the line that separated the worlds of innovation, and outright science
-            fiction. Due to our
-            unfamiliarity with autonomous technology and its possibilities, we were unsure of what seemed plausible in
-            the coming future.
-            Additionally, novelty and originality was a personal goal for the team, even if there was no specific
-            requirement for such.
-            This led to hours of civil
-            discourse within the group as we thoroughly discussed each and every idea's potential and limitations. </p>
-        </div>
-        <div class="col-md-12">
-          <p>In spite of all the time it took to finally come to a convincing agreement, all of these discussions
-            really benefited us in the end,
-            as it forced us to think deeper about each idea and contemplate various factors such as the necessity, the
-            possibility,
-            and the feasibility of these ideas.
-            Our analysis made sure that we put extra thought into every aspect, so that we could only pick our best
-            options.</p>
-        </div>
-      </div>
-
-      <div class="row section-heading" id="testing">
-        <div class="col-md-12">
-          <h3>User Testing</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>For both solutions various screens were designed and tested with various users. Pre-testing surveys were
-            conducted to
-            identify our participants and their familiarity with the context presented, such as their experience with
-            smartwatches
-            and health related apps. Post-testing surveys were also held to collect statistical ratings of our designs.</p>
-        </div>
-        <div class="col-md-12">
-          <p>Think aloud testing was conducted to capture the organic thought process each participant had when
-            interacting with the designs.
-            Each participant was asked to complete a set of tasks where their time, errors, comments and observations
-            were recorded as feedback.
-            Three stages of testing were held with 20 unique users overall, with some participating in numerous rounds.
-            This allowed us to collect
-            feedback from new perspectives as well evaluations on any adjustments we made. It was also ensured that a
-            participant from the medical
-            industry was involved with testing for each round. These comparisons from a
-            wide range of participants allowed for deeper insights into how users interacted with our interfaces.</p>
-        </div>
-        <div class="col-md-12">
-          <p>Users tested with paper prototypes made to emulate our designed interfaces. While we attempted to visually
-            represent the screens as accurately as was possible, there was still some difficulty in effectively
-            representing
-            digital interactions on paper for aspects such as camera scanning functions and animation elements. However
-            despite
-            this we believe were still able to collect thorough and rich data in spite of this issue.
-          </p>
-        </div>
-      </div>
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>User Testing: First Stage</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>The first round helped us identify many flaws with our mobile application. Issues with screen
-            flow were presented when users were asked to triage for other people. Many found it difficult to
-            comprehend the need for logging out, and failed to recognise logged in statuses.
-            Only after explanations were given did they understand the need for this.</p>
-        </div>
-        <div class="col-md-12">
-          <p>Due to the limited screen size of the smartwatch the main task we faced was designing an
-            interface that was easy to navigate and access. While these issues were considered, navigation
-            problems still presented themselves, with majority of users not being experienced with smartwatches
-            and so found difficulty navigating due to the lack of instructions provided. However as smartwatches
-            are catered for the wearer where triaging for different people was not an option, participants were
-            quicker in understanding and using the
-            smartwatch application, and were actually more in favour of the smartwatch. </p>
-        </div>
-      </div>
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>User Testing: Second Stage</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>For the second round the solutions were iterated upon with screen flow being adjusted and icons being
-            redesigned,
-            in which we received more balanced results this time. </p>
-        </div>
-        <div class="col-md-12">
-          <p>The mobile application saw a redesign in the triage process, which found much greater success than the
-            first iteration.
-            As we removed the need to log out and created a home page, users found it easier to understand switch
-            between triaging
-            for themselves and others. With the addition of a few new screens and change in screen
-            flow, users found themselves lacking sufficient explanations of certain features. Users felt that more
-            information was
-            required, which tied into the need for further help and documentation.</p>
-        </div>
-        <div class="col-md-12">
-          <p>Other than a few navigation issues, we still found that users found task completion easier on
-            smartwatches, simply
-            because the idea of wearables being used for medical purposes was believable as is common in society today.
-            Thus users
-            found themselves understanding the convenience of the smartwatch concept more than the mobile application.
-            And for that reason we ultimately decided for our final solution to be the smartwatch application. </p>
-        </div>
-        <div class="col-md-12">
-          <p>However smartwatch applications must have a mobile counterpart and do not typically work as a
-            standalone smartwatch application. So we decided to retain the login and account creation process of the
-            mobile application. Our final solution would now consist of using the mobile application to create an
-            account, while using the smartwatch for triaging and calling functions.
-          </p>
-        </div>
-      </div>
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>User Testing: Third Stage</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>The screen designs went through a final round of iteration to improve clarity and create a high
-            fidelity wireframe design that implemented specific aesthetic choices such as fonts and colour. This
-            was done by using universal icons, as it was pointed out that some instructions such as 'OK' and 'Next'
-            seemed vague in interpretation of what screen or direction it would take them to. Additionally, initial
-            onboarding
-            tutorial screens explaining the app functions was added to the mobile application.</p>
-        </div>
-        <div class="col-md-12">
-          <p>Users were successful with navigating their way with both the mobile and smartwatch counterparts.
-            Participants working in the medical industry advised for wording and visual hierarchy to be revised,
-            as the choice of wording presented seemed to be misleading or open to misinterpretation, as well as
-            believing that certain text elements are of higher priority than the icons. </p>
-        </div>
-      </div>
-
-      <div class="row section-heading">
-        <div class="col-md-12">
-          <h3>Testing: Reflections</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>While we carefully chose the right questions to collect relevant data, it is possible
-            that a few of the questions were a bit difficult to assess. Likert scale questions such as
-            "how effective do you think this would be in a non-lethal emergency?" or "how easy was it to
-            navigate?" were honestly at times difficult to gauge for a few users. Though these responses
-            were necessary for our evaluations, it is possible that users' could not accurately answer due to
-            themes such as "effectiveness" being hard to represent through a 5 point Likert scale. Additionally
-            the fact that people typically choose the middle option when they wish to avoid
-            answering a question is a problem that may are may not have affected the accuracy of the results.</p>
-        </div>
-      </div>
-
-      <div class="row section-heading" id="next">
-        <div class="col-md-12">
-          <h3>Next Steps</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p>Based off of the feedback received from our final testing stage, appropriate modifications will be
-            made to our high fidelity wireframes. We aim to develop the high-fidelity
-            mock-up using InVision to emulate the proper digital interactive experience as accurately as possible.</p>
-        </div>
-      </div>
-
-
-      <div class="row slide-show">
-        <div class="col-md-12">
-          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/process-journal/carousel-images1/people-working-1.jpg?auto=yes&bg=777&fg=555&text=First slide"
-                  alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/process-journal/carousel-images1/people-working-2.jpg?auto=yes&bg=666&fg=444&text=Second slide"
-                  alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/process-journal/carousel-images1/people-working-3.jpg?auto=yes&bg=555&fg=333&text=Third slide"
-                  alt="Third slide">
+          <div class="row slide-show">
+              <div class="col-md-12">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="img/prototype/Iteration0 userflow mobileapp.png" target="_blank">
+                      <img class="d-block w-100" src="./img/prototype/Iteration0 userflow mobileapp.png" alt="First slide">
+                    </a>
+                      <div class="carousel-caption">
+                        <h5>Mobile Application</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="img/prototype/iteration0_userflow_smartwatch.png" target="_blank">
+                      <img class="d-block w-100" src="./img/prototype/iteration0_userflow_smartwatch.png" alt="Second slide">
+                      </a>
+                      <div class="carousel-caption">
+                        <h5>Smartwatch Application</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <span class="img-caption">Design One Screen flow chart</span>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        
+     
+      <div class="col-md-12">
+          <h4>Walkthrough Video</h4>
+          <video controls="controls"  height="600" style="margin:0 16%;"
+       name="Video Name" src="img/prototype/Iteration0 mobile app.mov"></video>
+          <video controls="controls"  height="600" 
+       name="Video Name" src="img/prototype/iteration0_smartwatch.mp4"></video>
+       
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec
-            feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor
-            posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum
-            tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis
-            massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut
-            pharetra sit.</p>
-        </div>
-      </div>
-
-
-      <div class="row section-heading" id="user-research">
-        <div class="col-md-12">
-          <h3>3. User Research</h3>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Eget nunc lobortis mattis aliquam. Tortor condimentum lacinia quis vel eros. Nec
-            feugiat nisl pretium fusce id velit ut tortor pretium. Enim sit amet venenatis urna cursus eget. Tortor
-            posuere ac ut consequat semper viverra. Lacus sed turpis tincidunt id. Vitae turpis massa sed elementum
-            tempus egestas sed sed risus. Nibh venenatis cras sed felis eget velit. Ultrices eros in cursus turpis
-            massa tincidunt dui ut ornare. Feugiat nibh sed pulvinar proin gravida hendrerit. Enim diam vulputate ut
-            pharetra sit.</p>
-        </div>
-      </div>
-
-      <div class="row slide-show">
-        <div class="col-md-12">
-          <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-1.jpg?auto=yes&bg=777&fg=555&text=First slide"
-                  alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-2.jpg?auto=yes&bg=666&fg=444&text=Second slide"
-                  alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-3.jpg?auto=yes&bg=555&fg=333&text=Third slide"
-                  alt="Third slide">
-              </div>
+      <div class="col-md-12 prototype">
+        <h4>Embedded InVision Prototypes</h4>
+      
+        <div class="col-md-6">
+            <h5 id="invision">Mobile Application</h5>
+            <iframe style="transform: scale(0.7)" width="100%" height="895px" src="https://invis.io/MQOPJN9XSE3" frameborder="0" allowfullscreen></iframe>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="col-md-6">
+                <h5 id="invision" style='margin-left:33%;'>Smartwatch Application</h5>
+                <iframe style="transform: scale(0.7)" width="100%" height="895px" src="https://invis.io/XKOPJPCHR2N" frameborder="0" allowfullscreen></iframe>
+            </div>
+      </div>
+      <div class="col-md-12 testpara">
+        <h4>Results</h4>
+        <p>All participants with the exception of Jackson & Sophie had tested previous iterations of this
+          prototype in the form of a paper prototype, requiring the aforementioned duo to be informed on
+          the context of the application before user testing was commenced. Through testing all users were
+          able to understand the purpose of the application and most importantly, understand how the flow
+          worked; successfully navigating the interface without any major difficulties.</p>
+      </div>
+      <div class="col-md-12">
+        <h4>Recommendations</h4>
+        <p>Majority of participants had many additional suggestions and recommendations to further 
+          improve the application. For the mobile application more information for the patient’s benefit 
+          such as allergies, private health insurance, blood type (positive or negative) and the ability
+           to notify emergency contacts were added to the application. Heuristic issues were also addressed 
+           with visibility issues through colour choices (dot-loader for onboarding tutorial screens),
+            help and documentation being added to numerous pages (myGov login, user information, history 
+            of cancelled calls, fingerprint biometrics, etc) with fonts differentiating information through
+             methods such as italics and bolded text. User control and freedom as well as error prevention 
+             was something many users were concerned with, suggesting additional buttons of prompts to retrieve 
+             forgotten passwords and the option to edit profiles. There was also a prompt to add emergency 
+             contacts to the application, alerting specific contacts when an ambulance was called for the user.</p>
+             <p>The watch application had numerous suggestions from users also, with the most prominent request 
+               being the ability to check for general practitioners near the user through the watch interface.
+                This would be especially effective for scenarios where the user encountered a minor injury 
+                that did not warrant the calling of an ambulance, this would still provide users with the ability 
+                to seek professional medical attention.Another recommendation was a functionality for the user 
+                to manually trigger the scan, in the scenario that they had turned minor injuries alert off or 
+                did not feel well. Certain icons were also suggested to be changed to better match between 
+                system and the real world, such as additional labels to prompt users. </p>
+      </div>
+    </div>
+
+    <div class="row" id="des2">
+        <div class="col-md-12 heading">
+          <h3>Design 2</h3>
+          <h4>Introduction</h4>
+        </div>
+        <div class="col-md-12">
+          <p> Following the recommendations of users from the first iteration of the prototype, numerous 
+            features were added with the most notable being the inclusion of a list of GPs near the user’s 
+            location, an option for the user to scan themselves on the status page on the smartwatch 
+            application; as well as setting up an emergency contact on the mobile application. A total 
+            of four users were tested, with two participants having participated in the previous round and 
+            two new users added. Two regular users were tested with Eugene (IT solution architect, previous 
+            participant) testing the prototype under the same conditions as the first iteration. Wendy 
+            (university student studying psychology) tested the prototype using their personal computer
+             on university grounds, being the first time they had interacted with the application. There
+              were also two medical staff involved in testing with Stephanie (medical scribe) and Evan (EMT).
+               Both participants were not able to test in person due to their busy schedules but was 
+               able to access the InVision prototype links through their personal computers and provided
+                feedback through a call where their comments were transcribed. Eugene (architect) and 
+                Stephanie (medical scribe) were recruited as participants once more as the two had numerous 
+                suggestions in the previous iteration that had been implemented in this current design and
+                 it would be interesting to see their opinions on said changes. 
+          </p>
+        </div>
+        <div class="col-md-12">
+            <h4>App Structure Screen Flow Chart</h4>
           </div>
+    
+              <div class="row slide-show">
+                  <div class="col-md-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a href="./img/prototype/Iteration1 userflow mobile app1.png" target="_blank">
+                          <img class="d-block w-100" src="./img/prototype/Iteration1 userflow mobile app.png" alt="First slide">
+                        </a>
+                          <div class="carousel-caption">
+                            <h5>Mobile Application</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="img/prototype/iteration1_userflow_smartwatch (1).png" target="_blank">
+                          <img class="d-block w-100" src="./img/prototype/iteration1_userflow_smartwatch.png" alt="Second slide">
+                          </a>
+                          <div class="carousel-caption">
+                            <h5>Smartwatch Application</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <span class="img-caption">Design Two Screen flow chart</span>
+                  </div>
+                </div>
+            
+         
+          <div class="col-md-12">
+              <h4>Walkthrough Video</h4>
+              <video controls="controls"  height="600" style="margin:0 16%;"
+       name="Video Name" src="img/prototype/Iteration1 mobile app.mov"></video>
+          <video controls="controls"  height="600" 
+       name="Video Name" src="img/prototype/ITERATION1_SMARTWATCH.mp4"></video>
+            </div>
+          <div class="col-md-12 prototype">
+            <h4>Embedded InVision Prototypes</h4>
+            <div class="col-md-6">
+                <h5 id="invision" >Mobile Application</h5>
+                <iframe style="transform: scale(0.7)" width="100%" height="895px" src="https://invis.io/7WOPK0CPEK6" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h5 id="invision"  style='margin-left:33%;'>Smartwatch Application</h5>
+                    <iframe style="transform: scale(0.7)" width="100%" height="895px" src="https://invis.io/H6OPK16Y9JW" frameborder="0" allowfullscreen></iframe>
+                </div>
+          </div>
+        <div class="col-md-12 testpara">
+          <h4>Results</h4>
+          <p>All participants were able to understand the flow of the applications and successfully navigate 
+            without any difficulties. Regular user Wendy (psychology student) had never interacted with 
+            this type of application previously and had to be provided context on how this application would 
+            function. Evan (EMT) had also never tested any previous prototype iterations but had some context 
+            of the application due to being interviewed for the research report. The comments were mostly 
+            positive as the users were able to interact with both prototypes, with majority of feedback being 
+            in form of further suggestions.</p>
+        </div>
+        <div class="col-md-12">
+          <h4>Recommendations</h4>
+          <p>Further customisation was requested on the application such as the inclusion of a profile picture 
+            to the mobile profile section. Stephanie (medical scribe) highlighted the importance of this option 
+            as despite all the information provided it would be much easier for the EMTs to identify the user 
+            through a picture rather than data solely in the form of words or numbers. The importance of 
+            consistency and standards in the platform was commented upon through certain phrases needing to 
+            be rephrased, the layout of dates being universal, as well as the cost for cancelled ambulances 
+            being displayed. To create a better match between system and the real world and to prevent errors, 
+            it was highly suggested that the word ‘status’ on the watch homepage be reworded to ‘vitals’. 
+            Evan (EMT) recommended the avoidance of brand names in parts of the application (i.e ‘bandaid’)
+             as well as to provide a disclaimer that first aid tips were not meant to replace a medical 
+             professional’s attention and that users should consult with doctors whenever possible. Both
+              medical professionals also highly suggested making the application more accessible to people 
+              who may otherwise have a more difficult time due to colour blindness. 
+            </p>
         </div>
       </div>
+
+      <div class="row" id="final">
+          <div class="col-md-12 heading">
+            <h3>Final Design</h3>
+            <h4>Introduction</h4>
+          </div>
+          <div class="col-md-12">
+            <p> FAs the final iteration of ‘Smart Triaging’ it was of utmost importance that all user 
+              feedback was carefully considered, including reflection on recommendations in previous 
+              iterations that may have been overlooked. A profile picture option was integrated to the 
+              mobile prototype as well as the suggestions on phrasings of medical terms to be consistent 
+              with what the medical industry used. An additional option of a ‘colour-blind mode’ was added
+               in the settings of the watch application. The three users that tested the design consisted 
+               of one recurring user Stephanie (medical scribe) and two new regular users Jason (accountant) 
+               and Andrew (English teacher). All three users were tested in a casual setting off-campus, 
+               using a personal computer to access the prototypes through InVision links. The observation 
+               was done in person to see their reactions and to provide any assistance that may be required.   
+
+            </p>
+          </div>
+          <div class="col-md-12">
+              <h4>App Structure Screen Flow Chart</h4>
+            </div>
+      
+                <div class="row slide-show">
+                    <div class="col-md-12">
+                      <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <a href="img/prototype/Iteration2 userflow mobile app1.png" target="_blank">
+                            <img class="d-block w-100" src="img/prototype/Iteration2 userflow mobile app.png" alt="First slide">
+                          </a>
+                            <div class="carousel-caption">
+                              <h5>Mobile Application</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="img/prototype/iteration2_userflow_smartwatch (1).png" target="_blank">
+                            <img class="d-block w-100" src="./img/prototype/iteration2_userflow_smartwatch.png" alt="Second slide">
+                            </a>
+                            <div class="carousel-caption">
+                              <h5>Smartwatch Application</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <span class="img-caption">Screen flow chart</span>
+                    </div>
+                  </div>
+              
+           
+                  <div class="col-md-12">
+                    <h4>Walkthrough Video</h4>
+        
+                    <video controls="controls"  height="600" style="margin:0 16%;"
+             name="Video Name" src="img/prototype/Interation2 Mobile App Final.mp4"> </video>
+                <video controls="controls"  height="600" 
+             name="Video Name" src="img/prototype/ITERATION1_SMARTWATCH.mp4"></video>
+                  </div>
+            <div class="col-md-12 prototype">
+              <h4>Embedded InVision Prototypes</h4>
+              <div class="col-md-6">
+                  <h5 id="invision">Mobile Application</h5>
+                  <iframe style="transform: scale(0.7)" width="100%" height="895px" src="https://invis.io/FEOPLMLK2HD" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-md-6">
+                      <h5 id="invision" style="margin-left:33%;">Smartwatch Application</h5>
+                      <iframe style="transform: scale(0.7)" width="100%" height="895px" src="https://invis.io/YEOPLM3MNSD" frameborder="0" allowfullscreen></iframe>
+                  </div>
+            </div>
+          <div class="col-md-12 testpara">
+            <h4>Results</h4>
+            <p>The most difficulty the new users had was understanding the concept of an autonomous system 
+              as they had not encountered any instances of this type of technology previously. However they 
+              were able to smoothly operate both prototype applications without having to ask for help when 
+              actually testing both. All three users enjoyed the fact that they were able to add a profile 
+              picture with Stephanie appreciating that her feedback was taken into serious consideration. </p>
+          </div>
+          <div class="col-md-12">
+            <h4>Recommendations</h4>
+            <p> Due to the limits of InVision, despite the colour-blind mode being added on the watch interface, 
+              it is not able to be interacted with. In the future it would be ideal if this feature could be 
+              developed upon as well as other accessibility features. However as the main application is on a 
+              smartwatch, the option for larger text was regarded as unnecessary due to this being a typical
+               existing optimisation option on smartwatch interfaces. There were also suggestions to further 
+               develop on the general practitioner functionalities such as adding the user’s regular GP to 
+               the list to easily contact them, in addition to showing the user’s nearest GPs. O2 sat was 
+               another stat suggestion to be displayed in the vital section as many fitness watches already 
+               have a pulse oximetry function, with low O2 sat levels potentially improving the triaging 
+               capabilities of the application. 
+              </p>
+          </div>
+        </div>
+
+   
 
     
 
-      </div>
 
-
-
-      
-      <!-- End Content -->
-      <div id="overlay" onclick="closeHa();"></div>
+  <!-- End Content -->
+  <div id="overlay" onclick="closeHa();"></div>
 
 
 
 
-    </div>
+  </div>
   </div>
 
 
@@ -700,9 +537,9 @@
   <div class="footer">
 
 
-        <div class="col-md-2">
-          <p>&copy; 2018 Nick Citizen</p>
-        </div>
+    <div class="col-md-2">
+      <p>&copy; 2018 Evelyn Yew</p>
+    </div>
 
 
   </div>
