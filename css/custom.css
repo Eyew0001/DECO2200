@@ -65,6 +65,11 @@ h5{
 		color: rgb(129, 52, 78);
 		letter-spacing: -0.5px;
 	}
+	h6{
+		text-transform: uppercase;
+		color: rgb(75, 28, 44);
+		letter-spacing: -0.5px;
+	}
 p, li, span, a {
 	font-family: 'Crimson Text', serif;
 	text-align: justify;

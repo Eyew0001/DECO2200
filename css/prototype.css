@@ -110,3 +110,14 @@ ul > li {
 .carousel-caption {
     bottom:-10px;
 }
+.para {
+    margin-top:15%;
+}
+.end {
+    /* The image used */
+    background-image: url('../img/prototype/zhen-hu-340739-unsplash.jpg');
+    min-height: 400px; 
+    background-size: 80%;
+    background-position: 15%; 
+
+}

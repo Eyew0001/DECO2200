@@ -97,14 +97,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.end {
-    /* The image used */
-    background-image: url('../img/process-journal/zhen-hu-340739-unsplash.jpg');
-    min-height: 400px; 
-    background-size: 80%;
-    background-position: 15%; 
 
-}
 .first {
         /* The image used */
         background-image: url('../img/process-journal/iteration1.png');
@@ -172,4 +165,18 @@ ul > li {
   }
 .carousel-caption {
     bottom:-10px;
+}
+.prototype {
+    margin-top:0%;
+    margin-bottom:40%;
+}
+#invision {
+    margin-left:35%;
+    margin-bottom:-20%;
+}
+.prevpara {
+  margin-top:-5%;
+}
+.extrapara {
+    margin-bottom:10%;
 }
