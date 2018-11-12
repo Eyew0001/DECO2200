@@ -1,0 +1,231 @@
+.col-md-6 {
+
+    width: 100%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    float:left;
+    margin-bottom:10%;
+}
+
+
+.heading{
+    margin-top:10%;
+}
+
+.col-md-2
+{
+    float:right;
+    height:2%;
+}
+
+.container {
+    padding: 0%;
+    margin-left:5%;
+}
+.row {
+    display: inline-block;
+}
+
+
+.col-md-12 {
+    display: inline-block;
+}
+
+.master-heading {
+    margin-left:38%;
+
+}
+.anchor{
+    display: block;
+    height: 124px; /*same height as header*/
+
+    visibility: hidden;
+  }
+.subanchor{
+    display: block;
+    height: 104px; /*same height as header*/
+margin-top:-104px;
+    visibility: hidden;
+  }
+.processanchor {
+    margin-top:-124px;
+}
+#invision {
+    margin-left:35%;
+    margin-bottom:-20%;
+}
+.invision{
+    margin-bottom: 40%;
+    margin-top:100px;
+}
+
+.parallax {
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero {
+    /* The image used */
+    background-image: url('../img/portfolio/hero.jpg');
+    min-height: 400px; 
+    background-size: 80%;
+    background-position: 15%; 
+}
+.process {
+    /* The image used */
+    background-image: url('../img/portfolio/process.jpg');
+    min-height: 400px; 
+    background-size: 80%;
+    background-position: 15%; 
+}
+
+.storyboard {
+    /* The image used */
+    background-image: url('../img/portfolio/Autonomous\ system\ Storyboard.jpg');
+    min-height: 400px; 
+    background-size: 80%;
+    background-position: 15%; 
+}   
+.storybo {
+    border:3px solid #B56357;
+    border-radius: 5px;
+    width:60%;
+    margin-left:20%;
+}
+
+.testing{
+    /* The image used */
+    background-image: url('../img/portfolio/testing.png');
+    min-height: 400px; 
+    background-size: 80%;
+    background-position: 15%; 
+}
+.final{
+    /* The image used */
+    background-image: url('../img/portfolio/screens.png');
+    min-height: 400px; 
+    background-size: 85%;
+    background-position: 5%; 
+}
+ul > li {
+    list-style-position: outside;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23B56357' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23B56357' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators .active{
+    background-color: rgb(148, 39, 63);
+}
+
+.carousel-indicators li {
+    background-color: rgba(148, 39, 63, 0.3);
+}
+.carousel-inner{
+    width:100%;
+    max-height: 700px;
+    border:3px solid #B56357;
+    border-radius: 5px;
+  }
+.carousel-caption {
+    bottom:-10px;
+}
+.para {
+    margin-top:15%;
+}
+#paraheading {
+    position: absolute;
+    z-index: 1;
+    top:350px;
+    background-color:#E9E7DA;
+  }
+#protoheading {
+    position: absolute;
+    z-index: 1;
+    margin-left:10px;
+    margin-top:350px;
+    background-color:#E9E7DA;
+  }
+.stat {
+      width:80%;
+      margin-left:5%;
+      margin-top:5%;
+}
+
+#quote {
+    font-size: 25px;
+    color:#582b2b;
+    margin-bottom:50%;
+}
+.ideation {
+    width: 100%;
+}
+
+.first{
+    float: right;
+}
+.second img{
+    width:120%;
+}
+
+.col {
+    margin-left:5%;
+}
+
+.screen img {
+    width:15%;
+    box-shadow: 3px 3px 5px #756767c2;
+}
+.screen2 img {
+    width:20%;
+    box-shadow: 3px 3px 5px #756767c2;
+}
+.video {
+    z-index: -2;
+}
+.video1 {
+    margin-top:-35%;
+    margin-left: 10%;
+
+}
+.video2 {
+    margin-top:-20%;
+    margin-left:10%;
+    margin-bottom:250px;
+    float:right;
+
+}
+.brainstormvideo {
+    float: right;
+    margin-right:15%;
+    margin-bottom:5%;
+}
+.concept {
+    box-shadow: 3px 3px 5px #756767;
+}
+.animationfade {
+
+    opacity: 0;
+  }
+  .evenmorefade {
+
+    opacity: 0;
+  }
+.quotefade {
+
+    opacity: 0;
+}
+.videofade {
+
+    opacity: 0;
+  }
