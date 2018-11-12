@@ -37,7 +37,7 @@
 </head>
 
 <body id="cont">
-
+    <div class="loader"></div>
     <!-- This is where our Navbar lives -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
 
@@ -70,6 +70,9 @@
     <!-- Navbar End -->
 
     <script>
+        $(window).load(function(){
+     $('.loader').fadeOut();
+});
         $(window).on("load", function () {
             $(window).scroll(function () {
                 var windowBottom = $(this).scrollTop() + $(this).innerHeight();
